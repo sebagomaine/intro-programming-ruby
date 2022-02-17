@@ -1,3 +1,5 @@
 puts "Please enter your name:"
 name = gets.chomp
-puts "Welcom #{name}."
+10.times do
+  puts "Welcome #{name}."
+end
