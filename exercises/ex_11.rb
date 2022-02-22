@@ -12,6 +12,9 @@ end
 
 p contacts
 
+puts contacts["Joe Smith"][:email]
+puts contacts["Sally Johnson"][:phone]
+
 # Expected output:
 #  {
 #    "Joe Smith"=>{:email=>"joe@email.com", :address=>"123 Main st.", :phone=>"555-123-4567"},
